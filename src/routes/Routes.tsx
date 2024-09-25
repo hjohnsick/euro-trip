@@ -7,6 +7,8 @@ import { Zurich } from "../pages/Zurich"
 import { Innsbruck } from "../pages/Innsbruck"
 import { Salzburg } from "../pages/Salzburg"
 import { Vienna } from "../pages/Vienna"
+import { Arrival } from "../pages/Arrival"
+import { Departure } from "../pages/Departure"
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +22,8 @@ export const router = createBrowserRouter([
       { path: "innsbruck", element: <Innsbruck /> },
       { path: "salzburg", element: <Salzburg /> },
       { path: "vienna", element: <Vienna /> },
+      { path: "arrival", element: <Arrival /> },
+      { path: "departure", element: <Departure /> },
     ],
   },
 ])
