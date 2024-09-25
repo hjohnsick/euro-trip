@@ -18,6 +18,7 @@ body {
 #root {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .permanent-marker-regular {
@@ -32,6 +33,22 @@ body {
   flex: 1 0 auto;
   flex-direction: column;
   align-items: center;
+}
+
+.wavy-top {
+  background: var(--white);
+  height: 120px;
+  padding: 10px;
+  --mask: radial-gradient(
+        51.61px at 50% calc(100% - 72px),
+        #000 99%,
+        #0000 101%
+      )
+      calc(50% - 60px) 0/120px 100%,
+    radial-gradient(51.61px at 50% calc(100% + 42px), #0000 99%, #000 101%) 50%
+      calc(100% - 30px) / 120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
 }
 
 .circle-img-container {
@@ -57,4 +74,16 @@ body {
 
 .footer {
   flex-shrink: 0;
+}
+
+.wavy-bottom {
+  background: var(--white);
+  padding: 60px;
+  height: 30px;
+  --mask: radial-gradient(51.61px at 50% 72px, #000 99%, #0000 101%)
+      calc(50% - 60px) 0/120px 100%,
+    radial-gradient(51.61px at 50% -42px, #0000 99%, #000 101%) 50% 30px/120px
+      100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
 }

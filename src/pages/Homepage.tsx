@@ -13,9 +13,11 @@ export const Homepage = () => {
   return (
     <>
       <Box className="content">
-        <Typography variant="h1" align="center" sx={{ my: 2 }}>
-          European Christmas Markets 2024
-        </Typography>
+        <Box className="wavy-top">
+          <Typography variant="h1" align="center" sx={{ my: 2 }}>
+            European Christmas Markets 2024
+          </Typography>
+        </Box>
         <CircleImg
           link="/arrival"
           alt="Austrian airplane taking off."
