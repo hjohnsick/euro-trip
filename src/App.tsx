@@ -25,6 +25,10 @@ theme.typography.h3 = {
   fontSize: "1.125rem",
 }
 
+theme.typography.h4 = {
+  fontSize: "1rem",
+}
+
 function App() {
   return (
     <>

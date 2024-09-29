@@ -3,43 +3,21 @@ import {
   List,
   ListItemText,
   Paper,
-  styled,
   Table,
   TableBody,
-  TableCell,
-  tableCellClasses,
   TableContainer,
   TableHead,
   TableRow,
   Typography,
 } from "@mui/material"
-import SquareImg from "../components/SquareImg"
 import QuartierBelvedere from "../assets/QuartierBelvedere.jpg"
 import Footer from "../components/Footer"
-
-const StyledTableCell = styled(TableCell)(({ theme }) => ({
-  [`&.${tableCellClasses.head}`]: {
-    backgroundColor: theme.palette.secondary.main,
-    color: theme.palette.common.white,
-  },
-  [`&.${tableCellClasses.body}`]: {
-    fontSize: 14,
-  },
-}))
-
-const StyledTableRow = styled(TableRow)(({ theme }) => ({
-  "&:nth-of-type(odd)": {
-    backgroundColor: theme.palette.action.hover,
-  },
-  // hide last border
-  "&:last-child td, &:last-child th": {
-    border: 0,
-  },
-}))
-
-function createData(departure: string, arrival: string, flight: string) {
-  return { departure, arrival, flight }
-}
+import {
+  createData,
+  StyledTableCell,
+  StyledTableRow,
+} from "../shared/tableFunctions"
+import { Accommodation } from "../components/Accommodation"
 
 const rows = [
   createData(
@@ -102,21 +80,13 @@ export const Arrival = () => {
             </TableBody>
           </Table>
         </TableContainer>
-        <Typography variant="h3" sx={{ my: 2 }}>
-          Accommodation:
-        </Typography>
-        <Typography variant="body1">Quartier Belvedere 16</Typography>
-        <SquareImg
-          link="https://www.booking.com/hotel/at/the-view-16-01-quartier-belvedere.html"
-          alt="Dining area of Quartier Belvedere 16"
-          src={QuartierBelvedere}
+        <Accommodation
+          name="Quartier Belvedere 16"
+          imgLink="https://www.booking.com/hotel/at/the-view-16-01-quartier-belvedere.html"
+          imgAlt="Dining area of Quartier Belvedere 16"
+          imgSrc={QuartierBelvedere}
+          address="ArsenalstraBe, 10. Favoriten, 1100 Vienna, Austria"
         />
-        <Typography variant="h3" sx={{ my: 2 }}>
-          Address:
-        </Typography>
-        <Typography variant="body1" sx={{ mx: 2 }}>
-          ArsenalstraBe, 10. Favoriten, 1100 Vienna, Austria{" "}
-        </Typography>
         <Typography variant="h3" sx={{ my: 2 }}>
           Location:
         </Typography>

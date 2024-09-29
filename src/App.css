@@ -79,14 +79,21 @@ body {
 
 .wavy-bottom {
   background: var(--white);
-  padding: 60px;
-  height: 30px;
+  padding: 60px 30px;
+  height: 80px;
   --mask: radial-gradient(51.61px at 50% 72px, #000 99%, #0000 101%)
       calc(50% - 60px) 0/120px 100%,
     radial-gradient(51.61px at 50% -42px, #0000 99%, #000 101%) 50% 30px/120px
       100% repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
+}
+
+.footer-link {
+  display: block;
+  color: var(--spruce-green);
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 .square-img {
