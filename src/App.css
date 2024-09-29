@@ -2,6 +2,7 @@
   --spruce-green: #3e8f60;
   --white: #fff;
   --lxgw-wenkai-mono-tc: "LXGW WenKai Mono TC", monospace;
+  --christmas-red: #d2042d;
 }
 
 html,
@@ -86,4 +87,10 @@ body {
       100% repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
+}
+
+.square-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

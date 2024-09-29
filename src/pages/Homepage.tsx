@@ -8,6 +8,7 @@ import Vienna from "../assets/vienna.jpg"
 import Arrival from "../assets/austrian-airplane.jpg"
 import Departure from "../assets/air-canada.jpg"
 import CircleImg from "../components/CircleImg"
+import HomepageFooter from "../components/HomepageFooter"
 
 export const Homepage = () => {
   return (
@@ -22,7 +23,7 @@ export const Homepage = () => {
           link="/arrival"
           alt="Austrian airplane taking off."
           src={Arrival}
-          date="Nov 30th"
+          date="Nov 29th - 30th"
         />
         <CircleImg
           link="/munich"
@@ -67,6 +68,7 @@ export const Homepage = () => {
           date="Dec 7th"
         />
       </Box>
+      <HomepageFooter />
     </>
   )
 }
