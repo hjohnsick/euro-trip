@@ -24,6 +24,7 @@ import Marienbrücke from "../assets/marienbrucke.jpg"
 import Hohenschwangau from "../assets/Hohenschwangau.jpg"
 import Lechfall from "../assets/lechfall.jpg"
 import OldTown from "../assets/old-town-fussen.png"
+import WavyTop from "../components/WavyTop"
 
 const rows = [
   createData(
@@ -41,14 +42,7 @@ const rows = [
 export const Fussen = () => {
   return (
     <>
-      <Box className="wavy-top" sx={{ paddingBottom: 8 }}>
-        <Typography variant="h1" align="center" sx={{ my: 2 }}>
-          Monday December 2nd
-        </Typography>
-        <Typography variant="h2" align="center" sx={{ my: 2 }}>
-          Füssen
-        </Typography>
-      </Box>
+      <WavyTop date="Monday December 2nd" city="Füssen" />
       <Box className="content">
         <Typography variant="h3" align="center" sx={{ my: 2 }}>
           Train to Füssen
@@ -58,7 +52,7 @@ export const Fussen = () => {
             5 minute walk from hotel to Munchen Hbf train station.
           </ListItemText>
         </List>
-        <TableContainer component={Paper}>
+        <TableContainer component={Paper} className="tableContainer">
           <Table sx={{ minWidth: 700 }} aria-label="customized table">
             <TableHead>
               <TableRow>
@@ -113,7 +107,9 @@ export const Fussen = () => {
           src={Neuschwanstein}
         />
         <Typography variant="body1" sx={{ m: 2 }}>
-          Tour Neuschwanstein Castle.
+          Tour Neuschwanstein Castle at 2:15pm. Need to be at the castle an hour
+          before tour starts. You cannot drive up to the castle. It is about a
+          40 minute walk from the ticket centre.
         </Typography>
         <SquareImg
           link="https://www.hohenschwangau.de/schloss-neuschwanstein"

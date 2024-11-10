@@ -80,7 +80,7 @@ body {
 
 .wavy-bottom {
   background: var(--white);
-  padding: 60px 30px;
+  padding: 60px 0;
   height: 80px;
   --mask: radial-gradient(51.61px at 50% 72px, #000 99%, #0000 101%)
       calc(50% - 60px) 0/120px 100%,
@@ -88,6 +88,11 @@ body {
       100% repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
+  width: 100%;
+}
+
+.tableContainer {
+  max-width: fit-content;
 }
 
 .footer-link {

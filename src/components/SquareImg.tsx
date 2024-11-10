@@ -9,7 +9,7 @@ interface SquareImgProps {
 
 export default function SquareImg(props: SquareImgProps) {
   return (
-    <Box sx={{ marginTop: 5 }}>
+    <Box sx={{ marginTop: 3 }}>
       <Link to={props.link}>
         <Box sx={{ height: 300, width: 300 }}>
           <Box

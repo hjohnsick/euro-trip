@@ -27,6 +27,7 @@ import Frauenkirche from "../assets/frauenkirche.png"
 import MunichResidenz from "../assets/Munich-Residenz.jpg"
 import Hofbrauhaus from "../assets/hofbrauhaus.png"
 import Pool from "../assets/volksbad-pool.jpg"
+import WavyTop from "../components/WavyTop"
 
 const rows = [
   createData(
@@ -39,14 +40,7 @@ const rows = [
 export const Munich = () => {
   return (
     <>
-      <Box className="wavy-top" sx={{ paddingBottom: 8 }}>
-        <Typography variant="h1" align="center" sx={{ my: 2 }}>
-          Sunday December 1st
-        </Typography>
-        <Typography variant="h2" align="center" sx={{ my: 2 }}>
-          Munich
-        </Typography>
-      </Box>
+      <WavyTop date="Sunday December 1st" city="Munich" />
       <Box className="content">
         <Typography variant="h3" align="center" sx={{ my: 2 }}>
           Train to Munich
@@ -59,7 +53,7 @@ export const Munich = () => {
             5 minute walk from Munchen Hbf train station to the hotel.
           </ListItemText>
         </List>
-        <TableContainer component={Paper}>
+        <TableContainer component={Paper} className="tableContainer">
           <Table sx={{ minWidth: 700 }} aria-label="customized table">
             <TableHead>
               <TableRow>

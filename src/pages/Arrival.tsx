@@ -52,7 +52,7 @@ export const Arrival = () => {
         <Typography variant="h3" sx={{ my: 2 }}>
           Flight Info:
         </Typography>
-        <TableContainer component={Paper}>
+        <TableContainer component={Paper} className="tableContainer">
           <Table sx={{ minWidth: 700 }} aria-label="customized table">
             <TableHead>
               <TableRow>

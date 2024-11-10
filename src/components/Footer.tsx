@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export default function Footer() {
   return (
     <footer className="footer wavy-bottom">
-      <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+      <Box sx={{ display: "flex", justifyContent: "space-around" }}>
         <Box>
           <Link to="/arrival" className="footer-link">
             Nov 29th-30th
