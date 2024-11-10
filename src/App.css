@@ -50,12 +50,13 @@ body {
       calc(100% - 30px) / 120px 100% repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
+  width: 100%;
 }
 
 .circle-img-container {
   position: relative;
   text-align: center;
-  color: var(--white);
+  color: var(--christmas-red);
 }
 
 .circle-img {
@@ -67,7 +68,7 @@ body {
 
 .circle-img-text {
   position: absolute;
-  top: 25%;
+  top: 10%;
   bottom: 25%;
   left: 25%;
   right: 25%;

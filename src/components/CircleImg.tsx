@@ -22,7 +22,6 @@ export default function CircleImg(props: CircleImgProps) {
             src={props.src}
             className="circle-img"
           ></Box>
-
           <Box className="circle-img-text">{props.date}</Box>
         </Box>
       </Link>
