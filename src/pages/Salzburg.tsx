@@ -1,11 +1,17 @@
 import { Box, Typography } from "@mui/material"
+import WavyTop from "../components/WavyTop"
+import Footer from "../components/Footer"
 
 export const Salzburg = () => {
   return (
-    <Box className="content">
-      <Typography variant="h1" align="center" sx={{ my: 2 }}>
-        Salzburg
-      </Typography>
-    </Box>
+    <>
+      <WavyTop date="Thursday December 5th" city="Salzburg" />
+      <Box className="content">
+        <Typography variant="h3" align="center" sx={{ my: 2 }}>
+          Train to Salzburg
+        </Typography>
+      </Box>
+      <Footer />
+    </>
   )
 }

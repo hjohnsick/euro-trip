@@ -24,6 +24,7 @@ import Footer from "../components/Footer"
 import ZurichTrainStation from "../assets/zurich-train-station.jpg"
 import SingingChristmasTree from "../assets/Singing-Christmas-Tree-Zurich.jpg"
 import Weihnachtsdorf from "../assets/weihnachtsdorf.jpg"
+import Chasalp from "../assets/chasalp.jpg"
 
 const rows = [
   createData(
@@ -106,16 +107,18 @@ export const Zurich = () => {
           Things to do:
         </Typography>
         <Typography variant="h4" sx={{ mt: 2 }}>
-          Christkindli Markt at the Zurich Train Station
+          Lunch at Chasalp
         </Typography>
         <SquareImg
-          link="https://christkindlimarkt.ch/en/home-en/"
-          alt="Christmas market at the Zurich train statin."
-          src={ZurichTrainStation}
+          link="https://www.chaesalp.ch/en/copy-of-sommer-auf-der-alp546dc9f9"
+          alt="Outside seating area at Chasalp."
+          src={Chasalp}
         />
         <Typography variant="body1" sx={{ m: 2 }}>
-          140 stalls inside the Zurich Train Station and a 10 metre high
-          Christmas tree decorated in Swarovski crystals.
+          Address: Tobelhofstrasse 236, 8044 Zürich, Switzerland <br></br> We
+          have a 11:30AM lunch reservation. It is a 10 minute drive from the
+          hotel. After lunch we need to head directly to Lindt. It is a half
+          hour drive from the restaurant. We will need to leave by 12:45PM.
         </Typography>
         <Typography variant="h4" sx={{ mt: 2 }}>
           Lindt Chocolate Museum
@@ -127,6 +130,18 @@ export const Zurich = () => {
         />
         <Typography variant="body1" sx={{ m: 2 }}>
           Champagne Truffles Magic at 1:30pm. Chocolate tour at 2:30pm.
+        </Typography>
+        <Typography variant="h4" sx={{ mt: 2 }}>
+          Christkindli Markt at the Zurich Train Station
+        </Typography>
+        <SquareImg
+          link="https://christkindlimarkt.ch/en/home-en/"
+          alt="Christmas market at the Zurich train statin."
+          src={ZurichTrainStation}
+        />
+        <Typography variant="body1" sx={{ m: 2 }}>
+          140 stalls inside the Zurich Train Station and a 10 metre high
+          Christmas tree decorated in Swarovski crystals.
         </Typography>
         <Typography variant="h4" sx={{ mt: 2 }}>
           The Singing Christmas Tree and Christmas Market
