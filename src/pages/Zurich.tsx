@@ -48,7 +48,7 @@ export const Zurich = () => {
           Train to Zurich
         </Typography>
         <List sx={{ mx: 2 }}>
-          <ListItemText>10 minute drive to Fussen traion station.</ListItemText>
+          <ListItemText>10 minute drive to Fussen train station.</ListItemText>
           <ListItemText>
             4 minute walk from the Zurich HB train station to the hotel.
           </ListItemText>
