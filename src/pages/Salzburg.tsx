@@ -23,9 +23,10 @@ import SquareImg from "../components/SquareImg"
 import Fortress from "../assets/fortress.jpg"
 import SalzburgWinter from "../assets/salzburg.png"
 import Krampus from "../assets/krampus.jpg"
+import Slide from "../assets/slide-salzwelten.jpg"
 
 const rows = [
-  createData("Innsbruck Hbf 9:14AM", "Salzburg Hbf 11:02AM", "ÖBB | RJX 863"),
+  createData("Innsbruck Hbf 7:14AM", "Salzburg Hbf 9:02AM", "ÖBB | RJX 863"),
 ]
 
 export const Salzburg = () => {
@@ -95,16 +96,23 @@ export const Salzburg = () => {
         <Typography variant="h3" sx={{ my: 2 }}>
           Things to do:
         </Typography>
-        <Typography variant="h4" sx={{ mt: 2 }}>
-          View the Hohensalzburg Fortress from the Basteiweg Stadtmauer and take
-          a tour.
+        <Typography variant="h4" sx={{ m: 2 }}>
+          View the Hohensalzburg Fortress from the Basteiweg Stadtmauer.
         </Typography>
         <SquareImg
           link="https://www.salzburg.info/en/sights/top10/hohensalzburg-fortress"
           alt="View of the Hohensalzburg Fortress in the snow."
           src={Fortress}
         />
-        <Typography variant="h4" sx={{ mt: 2 }}>
+        <Typography variant="h4" sx={{ m: 2 }}>
+          2PM Tour Salzwelten - The biggest active salt mine in Austria.
+        </Typography>
+        <SquareImg
+          link="https://www.salzwelten.at/de/salzburg"
+          alt="Slide in the salt mine."
+          src={Slide}
+        />
+        <Typography variant="h4" sx={{ m: 2 }}>
           Walk around Old Town Salzburg.
         </Typography>
         <SquareImg
@@ -121,7 +129,7 @@ export const Salzburg = () => {
           src={Krampus}
         />
         <Typography variant="body1" sx={{ m: 2 }}>
-          Krampus run begins at 5:30PM at Altstadt, Alter Markt.
+          5:30PM Krampus run at Altstadt, Alter Markt.
         </Typography>
       </Box>
       <Footer />

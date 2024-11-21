@@ -84,7 +84,7 @@ export const Innsbruck = () => {
           imgSrc={Mariott}
           address="Salurner Str. 15, 6020 Innsbruck, Austria"
         />
-        <Typography variant="h3" sx={{ my: 2 }}>
+        <Typography variant="h3" sx={{ m: 2 }}>
           Location:
         </Typography>
         <List sx={{ mx: 2 }}>
@@ -106,10 +106,10 @@ export const Innsbruck = () => {
             30 minute walk or 6 minute drive to Bergisel Ski Jump
           </ListItemText>
         </List>
-        <Typography variant="h3" sx={{ my: 2 }}>
+        <Typography variant="h3" sx={{ m: 2 }}>
           Things to do:
         </Typography>
-        <Typography variant="h4" sx={{ mt: 2 }}>
+        <Typography variant="h4" sx={{ m: 2 }}>
           Take the cable car to the top of Innsbruck.
         </Typography>
         <SquareImg
@@ -121,7 +121,7 @@ export const Innsbruck = () => {
           Address: Innsbruck Nordkettenbahnen - Congress Rennweg 3 A-6020
           Innsbruck
         </Typography>
-        <Typography variant="h4" sx={{ mt: 2 }}>
+        <Typography variant="h4" sx={{ m: 2 }}>
           Walk around Innsbruck
         </Typography>
         <SquareImg
