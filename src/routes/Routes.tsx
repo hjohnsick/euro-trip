@@ -12,7 +12,7 @@ import { Departure } from "../pages/Departure"
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/euro-trip",
     element: <App />,
     children: [
       { path: "", element: <Homepage /> },

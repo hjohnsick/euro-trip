@@ -6,30 +6,30 @@ export default function Footer() {
     <footer className="footer wavy-bottom">
       <Box sx={{ display: "flex", justifyContent: "space-around" }}>
         <Box>
-          <Link to="/arrival" className="footer-link">
+          <Link to="/euro-trip/arrival" className="footer-link">
             Nov 29th-30th
           </Link>
-          <Link to="/munich" className="footer-link">
+          <Link to="/euro-trip/munich" className="footer-link">
             Dec 1st Munich
           </Link>
-          <Link to="/fussen" className="footer-link">
+          <Link to="/euro-trip/fussen" className="footer-link">
             Dec 2nd Fussen
           </Link>
-          <Link to="/zurich" className="footer-link">
+          <Link to="/euro-trip/zurich" className="footer-link">
             Dec 3rd Zurich
           </Link>
         </Box>
         <Box>
-          <Link to="/innsbruck" className="footer-link">
+          <Link to="/euro-trip/innsbruck" className="footer-link">
             Dec 4th Innsbruck
           </Link>
-          <Link to="/salzburg" className="footer-link">
+          <Link to="/euro-trip/salzburg" className="footer-link">
             Dec 5th Salzburg
           </Link>
-          <Link to="/vienna" className="footer-link">
+          <Link to="/euro-trip/vienna" className="footer-link">
             Dec 6th Vienna
           </Link>
-          <Link to="/departure" className="footer-link">
+          <Link to="/euro-trip/departure" className="footer-link">
             Dec 7th
           </Link>
         </Box>

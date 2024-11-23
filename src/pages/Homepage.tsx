@@ -31,49 +31,49 @@ export const Homepage = () => {
           marginLeft={{ md: 3 }}
         >
           <CircleImg
-            link="/arrival"
+            link="/euro-trip/arrival"
             alt="Austrian airplane taking off."
             src={Arrival}
             date="Nov 29th-30th"
           />
           <CircleImg
-            link="/munich"
+            link="/euro-trip/munich"
             alt="Munich Christmas Market at Marienplatz"
             src={Marienplatz}
             date="Dec 1st"
           />
           <CircleImg
-            link="/fussen"
+            link="/euro-trip/fussen"
             alt="Neuschwanstein Castle in winter."
             src={Neuschwanstein}
             date="Dec 2nd"
           />
           <CircleImg
-            link="/zurich"
+            link="/euro-trip/zurich"
             alt="Lindt Chocolate Museum."
             src={Lindt}
             date="Dec 3rd"
           />
           <CircleImg
-            link="/innsbruck"
+            link="/euro-trip/innsbruck"
             alt="The city of Innsbruck, Austria."
             src={Innsbruck}
             date="Dec 4th"
           />
           <CircleImg
-            link="/salzburg"
+            link="/euro-trip/salzburg"
             alt="The city of Salzburg, Austria."
             src={Salzburg}
             date="Dec 5th"
           />
           <CircleImg
-            link="/vienna"
+            link="/euro-trip/vienna"
             alt="The main entrance to the Christkindlmarkt in front of Rathaus city hall in Vienna, Austria."
             src={Vienna}
             date="Dec 6th"
           />
           <CircleImg
-            link="/departure"
+            link="/euro-trip/departure"
             alt="Air Canada plane flying."
             src={Departure}
             date="Dec 7th"
