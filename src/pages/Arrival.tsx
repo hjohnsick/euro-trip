@@ -27,7 +27,7 @@ const rows = [
   ),
   createData(
     "Toronto 11:40PM 11/29",
-    "London 11:40PM 11/29",
+    "London 11:50AM 11/29",
     "Air Canada #AC858"
   ),
   createData(
